@@ -1,0 +1,102 @@
+body{
+    background: lightblue;
+    padding:1vw;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: solid black 2px;
+    border-radius: 5px;
+    outline: solid white 2px;
+}
+img{
+    width: 10vw;
+    height: auto;
+    border: solid white 1px;
+    border-radius: 5px;
+}
+#nav-list
+{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.dropbtn,.nav-btn,.update-dropbtn {
+    background-color: #3498DB;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    border:solid white 1px;
+    margin: 5px;
+    border-radius: 3px;
+  }
+  
+  .dropbtn:hover, .dropbtn:focus,.update-dropbtn:hover, .update-dropbtn:focus {
+    background-color: #2980B9;
+  }
+  
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-content,.update-dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a ,.update-dropdown-content a{
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .dropdown-content a:hover ,.update-dropdown-content a:hover{background-color: #ddd}
+  
+  .show {display:block;}
+  #search-ip,#search-id{
+      background: white;
+      color: black;
+      border:solid black 1px;
+      outline:solid white 2px;
+      padding: 10px;
+      margin: 12px;
+  }
+  table{
+      margin: 2vw;
+      border: solid black 2px;
+      border-radius: 3px;
+      outline:solid white 1px;
+      width: 90vw;
+  }
+th{
+    background: white;
+    font-family: Arial;
+}
+#t-id,#sno{
+    width: 5vw;
+}
+td{
+    background: white;
+    font-family: Arial;
+    text-align: center;
+    font-family: Arial;
+    font-weight: 700;
+}
+img{
+    border: solid white 2px;
+    border-radius: 3px;
+    outline:solid black 2px;
+    width: 5vw;
+    margin:5px;
+}

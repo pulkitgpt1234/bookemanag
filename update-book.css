@@ -1,0 +1,54 @@
+body{
+    background-color: lightcyan;
+    padding: 2vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container-update-book{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: lightskyblue;
+    flex-direction: column;
+    border: solid white 2px;
+    border-radius: 5px;
+    width:auto;
+    outline: solid 2px;
+    padding: 100px;
+}
+h1{
+    font-family: cursive;
+    color:black;
+    letter-spacing: 1px;
+}
+.input-row{
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    margin:10px;
+}
+button{
+    background-color: black;
+    margin:10px;
+    letter-spacing: 1px;
+    margin-top: 30px;
+    padding: 10px;
+    font-weight: 600;
+    font-family: Arial;
+    color: white;
+    border:solid white 1px;
+    border-radius: 3px;
+}
+input{
+    border: solid black 1px;
+    border-radius: 3px;
+}
+h4{
+    margin: 5px;
+}
+#updatebook-img
+{
+    background-color: white;
+    padding: 5px;
+}

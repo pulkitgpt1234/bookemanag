@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BOOKEMANAG</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div class="container">
+        <div class="navbar-content">
+            <nav class="nav-bar">
+                <ul id="nav-list">
+                    <li>
+                        <button class="nav-btn" id="add">Add Book</button>
+                    </li>
+                    <li>
+                        <input class="nav-btn" type="search" id="search-id" name="updateby-book-id" placeholder="Enter Book-id (5 digits)">
+                    </li>
+                    <li>
+                        <button class="nav-btn" id="update">Update</button>
+                    </li>
+                    <li>
+                        <input class="nav-btn" type="search" id="search-ip" name="book-search" placeholder="Search by name">
+                    </li>
+                    <li>
+                        <button class="nav-btn" id="search-btn">Search</button>
+                    </li>
+                    <li>
+                        <div class="dropdown">
+                            <button id="dropdown-btn" class="dropbtn">Sort by</button>
+                            <div id="myDropdown" class="dropdown-content">
+                              <a id="price-sort" href="#">Price</a>
+                              <a id="title-sort" href="#">Title</a>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+        <div class="list-container">
+            <table id="book-table">
+                <thead>
+                    <tr>
+                        <th id="sno">S No.</th>
+                        <th>Image</th>
+                        <th>Title</th>
+                        <th id="t-id">Id</th>
+                        <th>Price</th>
+                    </tr>
+                </thead>
+            </table>
+        </div>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
