@@ -1,2 +1,2 @@
 # bookemanag
-this is basically library management web application made using html,css and js.
+this is a library management web application made using html,css and javascript.
